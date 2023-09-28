@@ -1,5 +1,19 @@
-nav div{
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
     background-color: black;
+}
+
+.navlinks{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks:hover{
+    color: gray;
 }
 
 #banner ul{
@@ -9,8 +23,15 @@ nav div{
 }
 
 #banner ul li{
-    color: yellow;
     padding: 13px;
+}
+
+#banner ul li a{
+    color: yellow;
+}
+
+#banner ul li a:hover{
+    color: grey;
 }
 
 #footer{
